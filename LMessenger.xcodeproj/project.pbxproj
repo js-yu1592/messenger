@@ -14,6 +14,7 @@
 		2EDADF1D2BD79CBA00D33799 /* LMessengerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDADF1C2BD79CBA00D33799 /* LMessengerTests.swift */; };
 		2EDADF272BD79CBA00D33799 /* LMessengerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDADF262BD79CBA00D33799 /* LMessengerUITests.swift */; };
 		2EDADF292BD79CBA00D33799 /* LMessengerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDADF282BD79CBA00D33799 /* LMessengerUITestsLaunchTests.swift */; };
+		2EDADF3A2BD79F1000D33799 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2EDADF392BD79F1000D33799 /* Color+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,8 @@
 		2EDADF222BD79CBA00D33799 /* LMessengerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LMessengerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EDADF262BD79CBA00D33799 /* LMessengerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMessengerUITests.swift; sourceTree = "<group>"; };
 		2EDADF282BD79CBA00D33799 /* LMessengerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LMessengerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2EDADF352BD79E6600D33799 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
+		2EDADF392BD79F1000D33799 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +99,8 @@
 			children = (
 				2EDADF0B2BD79CB700D33799 /* LMessengerApp.swift */,
 				2EDADF0D2BD79CB700D33799 /* ContentView.swift */,
-				2EDADF0F2BD79CBA00D33799 /* Assets.xcassets */,
+				2EDADF382BD79EFE00D33799 /* Extension */,
+				2EDADF372BD79E6D00D33799 /* Resource */,
 				2EDADF112BD79CBA00D33799 /* Preview Content */,
 			);
 			path = LMessenger;
@@ -125,6 +129,23 @@
 				2EDADF282BD79CBA00D33799 /* LMessengerUITestsLaunchTests.swift */,
 			);
 			path = LMessengerUITests;
+			sourceTree = "<group>";
+		};
+		2EDADF372BD79E6D00D33799 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				2EDADF352BD79E6600D33799 /* Colors.xcassets */,
+				2EDADF0F2BD79CBA00D33799 /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		2EDADF382BD79EFE00D33799 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				2EDADF392BD79F1000D33799 /* Color+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2EDADF0E2BD79CB700D33799 /* ContentView.swift in Sources */,
+				2EDADF3A2BD79F1000D33799 /* Color+Extension.swift in Sources */,
 				2EDADF0C2BD79CB700D33799 /* LMessengerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
